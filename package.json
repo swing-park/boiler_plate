@@ -32,6 +32,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "test:coverage" : "craco test --watchAll=false --coverage",
     "eject": "craco eject",
     "eslint": "eslint './src/**/*.{ts,tsx}'",
     "eslint:fix": "eslint --fix './src/**/*.{ts,tsx}'",
