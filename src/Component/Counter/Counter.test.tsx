@@ -1,6 +1,6 @@
 import { fireEvent, render, Matcher, MatcherOptions } from '@testing-library/react';
 
-import Counter from '@/Component/Counter';
+import Counter from './index';
 
 let getByTestId: (
   text: Matcher,
